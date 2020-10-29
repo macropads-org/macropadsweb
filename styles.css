@@ -1,0 +1,148 @@
+/*Estilos generales para todos los proyectos*/
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: monospace;
+  color: #333; }
+
+h1 {
+  text-align: center;
+  color: #333; }
+
+h3 {
+    text-align: center;
+    color: #333; }
+
+h2 {
+    text-align: center;
+    color: rgb(141, 4, 153);
+}
+
+.table-rwd {
+  font-size: 1em;
+  border: 1px solid rgba(181, 213, 144, 0.5);
+  color: #666;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto; }
+  .table-rwd td, .table-rwd th {
+    text-align: center;
+    padding: .8em;
+    border-bottom: 1px solid rgba(181, 213, 144, 0.5); }
+  .table-rwd th {
+    background: #033d44;
+    color: #fff;
+    font-weight: normal;
+    text-align: center; }
+  .table-rwd td {
+    text-align: center; }
+
+    .table-rwd td:first-of-type {
+      text-align: left; }
+      .table-rwd td:first-of-type:before {
+        content: ""; }
+      .table-rwd td:first-of-type:after {
+        content: ""; }
+  .table-rwd tr:hover {
+    background: rgba(181, 213, 144, 0.2); }
+  .table-rwd tr td:nth-child(2n) {
+    background: rgba(181, 213, 144, 0.2); }
+
+.table-container {
+  overflow-x: auto; }
+
+.table-rwd {
+  min-width: 900px; }
+  .table-rwd td:first-child {
+    position: absolute;
+    background: #fff;
+    width: 8em; }
+  .table-rwd th:first-child {
+    width: 8em; }
+  .table-rwd tr:hover td:first-child {
+    background: rgb(255, 123, 0);
+    color: rgb(102, 194, 49); }
+
+    .box { 
+      margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        box-sizing: border-box;
+        font-family: monospace;
+        font-size: 20px;
+        text-align: center;
+        border: 10px solid #fff;
+        font-weight: 100; 
+        color: #ffffff; 
+        background:#033d44 }
+
+        .box1 { 
+            margin-left: 50px;
+            margin-right: 50px;
+            box-sizing: border-box;
+            font-family: monospace;
+            font-size: 20px;
+            text-align: center;
+            border: 10px solid #fff;
+            font-weight: 100; 
+            color: #ffffff; 
+            background:#033d44 }
+
+            .box2 { 
+                margin-left: 50px;
+                margin-right: 50px;
+                box-sizing: border-box;
+                font-family: monospace;
+                font-size: 20px;
+                text-align: center;
+                border: 10px solid #fff;
+                font-weight: 100; 
+                color: #ffffff; 
+                background:#033d44 }
+
+                .table-rwd2 {
+                  font-size: 1em;
+                  border: 1px solid rgba(181, 213, 144, 0.5);
+                  color: #666;
+                  border-collapse: collapse;
+                  margin-left: auto;
+                  margin-right: auto; }
+                  .table-rwd2 td, .table-rwd2 th {
+                    text-align: center;
+                    padding: .8em;
+                    border-bottom: 1px solid rgba(181, 213, 144, 0.5); }
+                  .table-rwd2 th {
+                    background: #033d44;
+                    color: #fff;
+                    font-weight: normal;
+                    text-align: center; }
+                  .table-rwd2 td {
+                    text-align: center; }
+                
+                    .table-rwd2 td:first-of-type {
+                      text-align: left; }
+                      .table-rwd2 td:first-of-type:before {
+                        content: ""; }
+                      .table-rwd2 td:first-of-type:after {
+                        content: ""; }
+                  .table-rwd2 tr:hover {
+                    background: rgba(181, 213, 144, 0.2); }
+                  .table-rwd2 tr td:nth-child(2n) {
+                    background: rgba(181, 213, 144, 0.2); }
+                
+                .table-container2 {
+                  overflow-x: auto; }
+                
+                .table-rwd2 {
+                  min-width: 350px; }
+                  .table-rwd2 td:first-child {
+                    position: absolute;
+                    background: #fff;
+                    width: 8em; }
+                  .table-rwd2 th:first-child {
+                    width: 8em; }
+                  .table-rwd2 tr:hover td:first-child {
+                    background: rgb(255, 123, 0);
+                    color: rgb(102, 194, 49); }
